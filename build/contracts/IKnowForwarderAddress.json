@@ -27,15 +27,15 @@
     "absolutePath": "@opengsn/gsn/contracts/interfaces/IKnowForwarderAddress.sol",
     "exportedSymbols": {
       "IKnowForwarderAddress": [
-        1891
+        1889
       ]
     },
-    "id": 1892,
+    "id": 1890,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1884,
+        "id": 1882,
         "literals": [
           "solidity",
           "^",
@@ -52,9 +52,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1891,
+        "id": 1889,
         "linearizedBaseContracts": [
-          1891
+          1889
         ],
         "name": "IKnowForwarderAddress",
         "nodeType": "ContractDefinition",
@@ -62,13 +62,13 @@
           {
             "body": null,
             "documentation": {
-              "id": 1885,
+              "id": 1883,
               "nodeType": "StructuredDocumentation",
               "src": "95:198:12",
               "text": " return the forwarder we trust to forward relayed transactions to us.\n the forwarder is required to verify the sender's signature, and verify\n the call is not a replay."
             },
             "functionSelector": "ce1b815f",
-            "id": 1890,
+            "id": 1888,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -76,23 +76,23 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1886,
+              "id": 1884,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "326:2:12"
             },
             "returnParameters": {
-              "id": 1889,
+              "id": 1887,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1888,
+                  "id": 1886,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1890,
+                  "scope": 1888,
                   "src": "351:7:12",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -101,7 +101,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1887,
+                    "id": 1885,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "351:7:12",
@@ -117,14 +117,14 @@
               ],
               "src": "350:9:12"
             },
-            "scope": 1891,
+            "scope": 1889,
             "src": "298:62:12",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1892,
+        "scope": 1890,
         "src": "56:306:12"
       }
     ],
@@ -134,15 +134,15 @@
     "absolutePath": "@opengsn/gsn/contracts/interfaces/IKnowForwarderAddress.sol",
     "exportedSymbols": {
       "IKnowForwarderAddress": [
-        1891
+        1889
       ]
     },
-    "id": 1892,
+    "id": 1890,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1884,
+        "id": 1882,
         "literals": [
           "solidity",
           "^",
@@ -159,9 +159,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1891,
+        "id": 1889,
         "linearizedBaseContracts": [
-          1891
+          1889
         ],
         "name": "IKnowForwarderAddress",
         "nodeType": "ContractDefinition",
@@ -169,13 +169,13 @@
           {
             "body": null,
             "documentation": {
-              "id": 1885,
+              "id": 1883,
               "nodeType": "StructuredDocumentation",
               "src": "95:198:12",
               "text": " return the forwarder we trust to forward relayed transactions to us.\n the forwarder is required to verify the sender's signature, and verify\n the call is not a replay."
             },
             "functionSelector": "ce1b815f",
-            "id": 1890,
+            "id": 1888,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -183,23 +183,23 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1886,
+              "id": 1884,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "326:2:12"
             },
             "returnParameters": {
-              "id": 1889,
+              "id": 1887,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1888,
+                  "id": 1886,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1890,
+                  "scope": 1888,
                   "src": "351:7:12",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -208,7 +208,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1887,
+                    "id": 1885,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "351:7:12",
@@ -224,14 +224,14 @@
               ],
               "src": "350:9:12"
             },
-            "scope": 1891,
+            "scope": 1889,
             "src": "298:62:12",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1892,
+        "scope": 1890,
         "src": "56:306:12"
       }
     ],
@@ -242,8 +242,8 @@
     "version": "0.6.10+commit.00c0fcaf.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.1",
-  "updatedAt": "2020-12-11T08:06:04.979Z",
+  "schemaVersion": "3.2.4",
+  "updatedAt": "2020-12-16T07:46:01.836Z",
   "devdoc": {
     "methods": {}
   },
